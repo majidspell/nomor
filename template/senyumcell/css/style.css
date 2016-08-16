@@ -1,0 +1,226 @@
+.senyumcell-table-center{
+	vertical-align: middle !important;
+}
+
+.dropdown:hover .dropdown-menu{
+	display: block !important;
+}
+
+.nomorberpasangan .panel-link{
+	margin-top: 10px;
+	margin-bottom: -15px !important;
+}
+
+.nomorberpasangan .panel-heading a{
+	color: black !important;
+}
+
+	.nomorberpasangan .panel-heading a:hover{
+		text-decoration: none;
+		color: #3498db !important;
+	}
+
+.turun20{
+	margin-bottom: 20px;
+}
+
+.title-garis{
+	position: relative !important;
+    z-index: 1 !important;
+}
+
+	.title-garis ::before{
+			border-top: 2px solid #dfdfdf !important;
+			content:"" !important;
+			margin: 0 auto !important; /* this centers the line to the full width specified */
+			position: absolute !important; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+			top: 50%; left: 0; right: 0; bottom: 0 !important;
+			width: 100% !important;
+			z-index: -1 !important;
+	}
+
+	.title-garis span{
+			/* to hide the lines from behind the text, you have to set the background color the same as the container */ 
+			background: #fff !important; 
+			padding: 0 15px !important;     
+	}
+
+.keranjang .text-header{
+	border-left: 7px solid !important;
+	padding: 10px !important;
+}
+
+	.keranjang .text-header h4{
+		margin-left: 15px !important;
+		padding-top:10px !important;
+	}
+
+.navbar-small{
+	width: 100%;
+	overflow: hidden;
+	background: #333333;
+	z-index: 9999;
+	position: fixed;
+}
+	
+	.navbar-small .right{
+		margin: 0;
+		padding: 0;
+		float: right;
+	}
+	
+	.navbar-small .right li{
+		padding-left: 15px;
+	}
+	
+	.navbar-small .left{
+		margin: 0;
+		padding: 0;
+		float: left;
+	}
+	
+	.navbar-small .left li{
+		padding-right: 15px;
+	}
+	
+	.navbar-small li{
+		float: left;
+		display: block;
+		padding-bottom: 7px;
+		padding-top: 7px;
+	}
+	
+	.navbar-small .right a{
+		color: white !important;
+		text-decoration: none !important;
+		transition: all 1s;
+	}
+	
+	.navbar-small .left a{
+		color: #d9edf7 !important;
+		text-decoration: none !important;
+		transition: all 1s;
+	}
+	
+	.navbar-small a:hover{
+		color: #3498db !important;
+	}
+
+.footerup {
+	padding-top : 40px !important;
+	padding-bottom : 40px !important;
+	margin-bottom :0px !important;
+	background: #333333 !important;
+	color: white !important;
+}
+
+	.footerup h4 {
+		color: #3498db !important;
+	}
+
+	.footerup .btn-join {
+		margin-top: 40px;
+	}
+
+.footerku {
+	background: #202020; 
+	/*background di atas untuk mengubah warna background kamu */
+}
+
+	.footerku h5 {
+		margin: 12px !important;
+	}
+	
+.senyumcell-slider{
+	padding-top:84px;
+	padding-bottom: 50px;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+	.senyumcell-slider .item img{
+		display: block !important;
+		width: 100% !important;
+		height: 550px !important;
+	}
+
+.senyumcell-navbar{
+	position: absolute !important;
+	z-index: 9;
+	width: 100%;
+	background: white !important;
+	border-radius: 0 !important;
+	border: 0 !important;
+	margin-top: 34px;
+	position: fixed !important;
+}
+	
+	.senyumcell-navbar .icon-bar {
+		background: #3498db !important;
+	}
+
+	.senyumcell-navbar .navbar-header .navbar-brand {
+		color: #3498db !important;
+	}
+
+	.senyumcell-navbar .collapse li a {
+		color: black !important;
+		transition: all 1s;
+	}
+
+	.senyumcell-navbar .collapse li a:hover {
+		color: #3498db !important;
+	}
+
+	.senyumcell-navbar .navbar-nav>.active>a{
+		background: #3498db !important;
+		color: white !important;
+	}
+	
+	.senyumcell-navbar .navbar-nav>.active>a:hover{
+		background: white !important;
+	}
+
+
+.joinus {
+	margin-top :30px !important;
+	margin-bottom :50px !important;
+	background: #265a88 !important;
+	color: white !important;
+}
+
+	.joinus h2 {
+		color: #3498db !important;
+	}
+
+	.joinus .btn-join {
+		margin-top: 40px;
+	}
+
+.whatwedo {
+	padding-top: 10px;
+	padding-bottom: 80px;
+}
+	
+	.whatwedo .content h3 i {
+		background: #3498db;
+		padding: 10px;
+		color: white;
+		border-radius: 3px;
+	}
+
+	.whatwedo .content h3 {
+		font-weight: bold !important;
+	}
+
+	.whatwedo .header-title {
+		margin-bottom: 50px;
+	}
+
+	.whatwedo .header-title h2 {
+		font-weight: bold !important;
+		text-align: center;
+	}
+
+	.whatwedo .header-title p {
+		text-align: center;
+	}
